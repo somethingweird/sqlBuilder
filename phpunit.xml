@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<phpunit 
+    colors="true"
+    bootstrap="vendor/autoload.php"
+    verbose="true"
+    >
+    <testsuites>
+        <testsuite name="default">
+            <directory>./tests</directory>
+            <file>sqlBTest.php</file>
+        </testsuite>
+    </testsuites>
+</phpunit>
